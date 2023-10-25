@@ -18,7 +18,7 @@
       "sendToSubscriptions": true,
       "saveToRealtime": true,
       "cronExpressions": [
-        "0 5,15,25,35,45,55 * * * ?"
+        "0 */3 0 ? * * *"
       ],
       "timeZone": "America/Sao_Paulo",
       "prepareScripts": [
